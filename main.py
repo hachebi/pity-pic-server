@@ -40,7 +40,7 @@ async def generate_image(file: UploadFile = File(...)):
             "input": {
                 "image": base64_image,
                 "prompt": "MS paint style, badly drawn, ugly doodle, pixelated, sloppy lines, white background",
-                "prompt_strength": 0.8
+                "prompt_strength": 0.4
             }
         }
         
